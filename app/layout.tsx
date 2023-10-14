@@ -7,6 +7,10 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
+import IslamQuizImg from "@/public/IslamQuiz.png";
+import Untitled from "@/public/Untitled.jpg";
+import Unt from "@/public/Unt.jpg";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -15,11 +19,11 @@ export const metadata = {
   icon: "/favicon.ico",
   twitter: {
     card: 'summary_large_image',
-    title: 'Next.js',
-    description: 'The React Framework for the Web',
+    title: 'fdfdfdfdf',
+    description: 'fdfdfdfdf',
     site: '@nextjs',
     creator: '@nextjs',
-    image: '/AiPrompts.png',
+    image: Unt,
   },
   facebook: {
     title: 'Next.js',
@@ -29,7 +33,7 @@ export const metadata = {
   linkedin: {
     title: 'Next.js',
     description: 'The React Framework for the Web',
-    image: '/AiPrompts.png',
+    image: Untitled,
   },
 };
 
