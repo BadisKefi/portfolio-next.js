@@ -52,7 +52,7 @@ export default function Project({
             ))}
           </ul>
         </div>
-        </a>
+        
 
         <Image
           src={imageUrl}
@@ -71,6 +71,7 @@ export default function Project({
 
         group-even:right-[initial] group-even:-left-40"
         />
+        </a>
       </section>
     </motion.div>
   );
