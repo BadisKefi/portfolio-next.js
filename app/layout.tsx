@@ -13,6 +13,24 @@ export const metadata = {
   title: "Badis | Personal Portfolio",
   description: "Badis Kefi is a full-stack developer with 4 years of experience.",
   icon: "/favicon.ico",
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Next.js',
+    description: 'The React Framework for the Web',
+    site: '@nextjs',
+    creator: '@nextjs',
+    image: '/AiPrompts.png',
+  },
+  facebook: {
+    title: 'Next.js',
+    description: 'The React Framework for the Web',
+    image: '/AiPrompts.png',
+  },
+  linkedin: {
+    title: 'Next.js',
+    description: 'The React Framework for the Web',
+    image: '/AiPrompts.png',
+  },
 };
 
 export default function RootLayout({
