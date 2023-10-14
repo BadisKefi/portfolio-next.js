@@ -80,6 +80,8 @@ export const projectsData = [
       "I worked as a full-stack developer on this project for 2-weeks. Users sign-in with Google & share AI prompts.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "NextAuth"],
     imageUrl: AiPromptsImg,
+    url: "https://share-ai-prompts-seven.vercel.app/",
+
   },
   {
     title: "Threads Clone",
@@ -87,6 +89,8 @@ export const projectsData = [
       "I was mastering big projects architecture with this project, search, pagination & fully working auth",
     tags: ["React", "Next.js", "Tailwind", "Shadcn", "Clerck"],
     imageUrl: ThreadsCloneImg,
+    url: "https://threads-nine-ivory.vercel.app/",
+
   },
   {
     title: "Full Portfolio",
@@ -94,6 +98,7 @@ export const projectsData = [
       "A fully responsive and dynamically animated portfolio website with modern UI design.",
     tags: ["React", "Next.js", "Tailwind", "Resend", "Framer Motion"],
     imageUrl: FullPortfolioImg,
+    url: "https://portfolio-next-js-rho-neon.vercel.app/",
   },
   {
     title: "Islamic Quiz with over 100k downloads",
@@ -101,6 +106,7 @@ export const projectsData = [
       "A Fresh, fully working and published inside the Google Play Store.",
     tags: ["Unity 3D", "Figma"],
     imageUrl: IslamQuizImg,
+    url: "https://play.google.com/store/apps/details?id=com.bkstation.islamquiz",
   },
 ] as const;
 
