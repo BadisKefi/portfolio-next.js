@@ -2,10 +2,13 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import meImg from "@/public/me.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { LuGamepad } from "react-icons/lu";
+
+import AiPromptsImg from "@/public/AiPrompts.png";
+import ThreadsCloneImg from "@/public/ThreadsClone.png";
+import FullPortfolioImg from "@/public/FullPortfolio.png";
+import IslamQuizImg from "@/public/IslamQuiz.png";
+
 
 export const links = [
   {
@@ -36,76 +39,96 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Unity Game Developer",
+    location: "Tunisia",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "I worked as a freelancer for 3 years in building mobile games. I also published many apps some of which exceeded 100k downloads.",
+    icon: React.createElement(LuGamepad),
+    date: "2016",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Graduated Baccalaureate in technical technology",
+    location: "Mahmoud messaddi, nabeul",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      " I gained valuable insights into technical concepts and practical skills, setting a strong foundation for my technical career.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020",
+  },
+  {
+    title: "License in Information technology",
+    location: "Higher Institute of Technological Studies - Nabeul",
+    description:
+      " I've been building a strong foundation in IT, preparing for a dynamic career in the field",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020 - in progress",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "tunisia",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2020 - present",
   },
+  
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Ai Prompts Platform",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this project for 2-weeks. Users sign-in with Google & share AI prompts.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "NextAuth"],
+    imageUrl: AiPromptsImg,
   },
   {
-    title: "rmtDev",
+    title: "Threads Clone",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "I was mastering big projects architecture with this project, search, pagination & fully working auth",
+    tags: ["React", "Next.js", "Tailwind", "Shadcn", "Clerck"],
+    imageUrl: ThreadsCloneImg,
   },
   {
-    title: "Word Analytics",
+    title: "Full Portfolio",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A fully responsive and dynamically animated portfolio website with modern UI design.",
+    tags: ["React", "Next.js", "Tailwind", "Resend", "Framer Motion"],
+    imageUrl: FullPortfolioImg,
+  },
+  {
+    title: "Islamic Quiz with over 100k downloads",
+    description:
+      "A Fresh, fully working and published inside the Google Play Store.",
+    tags: ["Unity 3D", "Figma"],
+    imageUrl: IslamQuizImg,
   },
 ] as const;
-export const MeData = {
-  name: "Badis Kefi",
-  imageUrl: meImg,
-}
+
 export const skillsData = [
+  "Next.js",
+  "Tailwind",
+  "MongoDB",
+
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
+
   "React",
-  "Next.js",
+  
   "Node.js",
+
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "GitHub",
+
+  
+  "Shadcn Ui",
+  "Bootstrap",
+
+  
+  "SQL",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Unity 3D",
+  "Figma",
+  "Figjam",
 ] as const;
