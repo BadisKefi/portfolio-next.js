@@ -98,7 +98,8 @@ export const projectsData = [
       "A fully responsive and dynamically animated portfolio website with modern UI design.",
     tags: ["React", "Next.js", "Tailwind", "Resend", "Framer Motion"],
     imageUrl: FullPortfolioImg,
-    url: "https://portfolio-next-js-rho-neon.vercel.app/",
+    //url: "https://portfolio-next-js-rho-neon.vercel.app/",
+    url: "https://badis-threads.vercel.app/"
   },
   {
     title: "Islamic Quiz with over 100k downloads",
