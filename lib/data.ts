@@ -89,7 +89,7 @@ export const projectsData = [
       "I was mastering big projects architecture with this project, search, pagination & fully working auth",
     tags: ["React", "Next.js", "Tailwind", "Shadcn", "Clerck"],
     imageUrl: ThreadsCloneImg,
-    url: "https://threads-nine-ivory.vercel.app/",
+    url: "https://threads-badis.app/",
 
   },
   {
@@ -99,7 +99,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "Tailwind", "Resend", "Framer Motion"],
     imageUrl: FullPortfolioImg,
     //url: "https://portfolio-next-js-rho-neon.vercel.app/",
-    url: "https://badis-threads.vercel.app/"
+    url: "https://badis-portfolio.app/"
   },
   {
     title: "Islamic Quiz with over 100k downloads",
