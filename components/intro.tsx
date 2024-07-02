@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
@@ -13,6 +13,13 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+
+  // Randomly sets to a value between min and max inclusive (include min & max in result)
+  const getRandomNumber = (min: number, max: number) =>
+    Math.floor(Math.random() * (max - min + 1)) + min;
+  const [randomPictureValue, setRandomPictureValue] = useState(() =>
+    getRandomNumber(1, 2)
+  );
 
   return (
     <section
@@ -31,13 +38,13 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/me.png"
+              src={`/me-${randomPictureValue}.png`}
               alt="Ricardo portrait"
               width="192"
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-24 w-24 md:h-48 md:w-48 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
@@ -91,7 +98,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/Badis.pdf"
+          href="/CV - Badis.pdf"
           download
         >
           Download CV{" "}
