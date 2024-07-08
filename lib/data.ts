@@ -77,7 +77,7 @@ export const experiencesData = [
     description:
       "solved the company problems with their simple wordpress ecommerce solution by rebuilding it using nextjs to improve SEO , speed & additional functionalities such as realistic preview for the clients to minimize the cost.",
     icon: React.createElement(CgCrown),
-    date: "2020 - present",
+    date: "2024",
   },
 ] as const;
 
